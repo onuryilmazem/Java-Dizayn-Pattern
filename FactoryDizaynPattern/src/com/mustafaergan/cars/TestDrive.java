@@ -6,11 +6,11 @@ public class TestDrive {
 		BursaFabrikasi factory = new BursaFabrikasi();
 		SatisBayi store = new SatisBayi(factory);
 
-		Araba araba = store.arabaSiparisEt("auris");
+		Araba araba = store.arabaSiparisEt("Murat131");
 		System.out.println("Siparis teslim edildi : " + araba.getName() + "\n");
 		System.out.println(araba);
  
-		araba = store.arabaSiparisEt("yaris");
+		araba = store.arabaSiparisEt("Dogan");
 		System.out.println("Siparis teslim edildi : " + araba.getName() + "\n");
 		System.out.println(araba);
 	}
